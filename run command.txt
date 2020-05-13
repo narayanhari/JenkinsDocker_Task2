@@ -1,0 +1,1 @@
+docker run --network bridge -p 8082:8080 -p 8083:8083 -p 8084:8084 -p 8085:8085 -p 8086:8086 -v /var/lib/jenkins/secrets/initialAdminPassword:/var/lib/jenkins/secrets/initialAdminPassword -v /var/run/docker.sock:/var/run/docker.sock -v /root/devops/hw2/:/var/www/html/ --name jenDockImg jenkins-nhm
