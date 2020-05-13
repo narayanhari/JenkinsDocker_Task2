@@ -1,4 +1,4 @@
-﻿
+
 # Jenkins inside Docker that manage All Containers
 ## Task 2-
 1.  Create container image that’s has Jenkins installed using dockerfile
@@ -87,3 +87,7 @@ To find this open Host OS and type
 Copy this password and paste it in the password field.
 
 Now change the password and enjoy using it.
+
+## Subtask 3
+
+Stay tuned for following Task
