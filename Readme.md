@@ -1,4 +1,4 @@
-
+﻿
 # Jenkins inside Docker that manage All Containers
 ## Task 2-
 1.  Create container image that’s has Jenkins installed using dockerfile
@@ -90,4 +90,30 @@ Now change the password and enjoy using it.
 
 ## Subtask 3
 
-Stay tuned for following Task
+Now We have to create Job1,2,3,4,5
+## Job1
+
+this job will download the code and copy it to the folder that is conected to the container
+![job1-1](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job1.PNG)
+![job1-2](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job1-2.PNG)
+
+## Job2
+This job will run the main server
+![job2](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job2-1.PNG)
+
+## Job3 and Job4
+this is combination of job 3 and job 4
+here we will check if the code is working or not if not then it will send a mail to the developer 
+![job3](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job3-1.PNG)
+
+Here you need to setup jenkins for SMTP server i used GMAIL server.
+
+![job4](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job3-2.PNG)
+
+## Job5 
+this will check if the main container is up or not.
+![job5](https://github.com/narayanhari/JenkinsDocker_Task2/blob/master/job4.PNG)
+
+
+
+
